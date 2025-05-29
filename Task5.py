@@ -2,7 +2,7 @@ from flask import Flask, render_template_string
 import requests
 from bs4 import BeautifulSoup
 
-app = Flask(_name_) 
+app = Flask(_name_)
 
 @app.route('/')
 def scrape_and_display():
@@ -84,3 +84,6 @@ def scrape_and_display():
 
 if _name_ == '_main_':
     app.run(debug=True)
+        
+          
+          
